@@ -1,0 +1,99 @@
+#about {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.about-txt {
+  text-align: center;
+}
+
+.kontak-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-catalog {
+  background-color: #ffdaa7;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: flex-start; /* Mengubah align-items ke flex-start */
+  justify-content: center;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Tambahkan ini */
+  height: 100vh; /* Tambahkan ini */
+}
+
+.kontak-txt {
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 80%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#catalog {
+  padding: 80px 0;
+  background-color: #ffdaa7;
+}
+
+.catalog-txt {
+  text-align: center;
+}
+
+.about-image img {
+  flex: 1;
+  max-width: 45%;
+}
+
+.about-description {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.about-image {
+  max-width: 40%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-image,
+  .about-description {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .about-description {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
